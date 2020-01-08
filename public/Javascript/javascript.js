@@ -7,8 +7,7 @@ $(document).ready(function() {
         $("img[src$='slide2.png']").attr("src", new_src2);
         $("img[src$='slide3.png']").attr("src", new_src3);
     };
-    var carouselHeight = window.innerHeight - 20;
-    $("img[class$='img-slide']").height(carouselHeight);
+    $("img[class$='img-slide']").height(window.innerHeight);
 });
 //changes the background image appropriately when the page is loaded depending on the size of screen.
 
