@@ -1,31 +1,29 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "12.x"
-  },
+  "name": "lithgae-gentlemans-poker",
+  "version": "1.0.0",
+  "description": "The web service for Lithgae Gentleman's Poker Club Website",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
-  },
   "dependencies": {
     "ejs": "^2.7.4",
     "express": "^4.17.1"
   },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "git+https://github.com/PierreRL/lithgae-gentlemans-poker.git"
   },
   "keywords": [
-    "node",
+    "express",
     "heroku",
-    "express"
+    "poker"
   ],
-  "license": "MIT"
+  "author": "Pierre Lardet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreRL/lithgae-gentlemans-poker/issues"
+  },
+  "homepage": "https://github.com/PierreRL/lithgae-gentlemans-poker#readme"
 }

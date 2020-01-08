@@ -47,9 +47,14 @@ button:hover {
 	outline:none !important;
 	box-shadow:none;
 }
-
+#results-link {
+	color:#e8edff;
+	text-decoration: none;
+}
+#results-link:hover {
+	color:#678bff;
+}
 .btn-home {
-	margin-top:-10px;
 	font-size:1.7rem;
 	font-family: Raleway;
 	display:inline !important;
@@ -74,6 +79,10 @@ button:hover {
 	border-color:black;
 	width:100%;
 	margin-bottom:1rem;
+}
+
+.img-slide {
+	height:700px;
 }
 @media (min-width: 576px) {
 	.left-hr {
