@@ -45,7 +45,7 @@ button:hover {
 	padding: 20px;
 }
 .main-wrapper {
-	padding: 0 2rem 0px 2rem;
+	padding: 0 20% 0 20%;
 	margin-top:2rem;
 }
 
@@ -140,5 +140,8 @@ button:hover {
 	}
 	.hidden-md-down {
 		display:none;
+	}
+	.main-wrapper {
+		padding: 0 2rem 0 2rem;
 	}
 }
