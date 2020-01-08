@@ -47,12 +47,6 @@ hr.hidden-md-up {
 	display:block;
 }
 
-@media (pointer:none), (pointer:coarse) {
-	hr.hidden-md-up {
-		width:90%;
-	}
-}
-
 @media (min-width: 576px) {
 	hr.hidden-md-up {
 		width:90%;
