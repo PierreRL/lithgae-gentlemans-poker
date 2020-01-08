@@ -8,6 +8,25 @@ $(document).ready(function() {
         $("img[src$='slide3.png']").attr("src", new_src3);
     };
     $("img[class$='img-slide']").height(window.innerHeight);
+    var href = document.location.href;
+    var lastPathSegment = href.substr(href.lastIndexOf('/') + 1);
+    switch(lastPathSegment) {
+        case 'upcoming':
+            $("#second-alink").toggleClass("active")
+            break;
+        case 'results':
+            $('#third-alink').toggleClass("active")
+            break;
+        case 'structure':
+            $('#fourth-alink').toggleClass("active")
+            break;
+        case 'rules':
+            $('#fifth-alink').toggleClass("active")
+            break;
+        default:
+            $('#first-alink').toggleClass("active")
+            break;
+    }
 });
 //changes the background image appropriately when the page is loaded depending on the size of screen.
 

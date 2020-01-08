@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>   
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+    <h1>Upcoming</h1>
+    <hr class="jb-header-hr"/>
+</div>  
+<div class="main-wrapper text-center">
+    <table class="table table-borderless">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Location</th>
+            <th scope="col">Buy-In</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">WylieWoos's</th>
+            <td>£5</td>
+            <td>01/02/2020</td>
+            <td>2pm</td>
+          </tr>
+          <tr>
+            <th scope="row">Lardettinator's</th>
+            <td>£10</td>
+            <td>Unconfirmed</td>
+            <td>Unconfimred</td>
+          </tr>
+          <tr>
+            <th scope="row">Flint's</th>
+            <td>£5</td>
+            <td>Unconfirmed</td>
+            <td>Unconfimred</td>
+          </tr>
+        </tbody>
+      </table>
+</div>  
+    <% include ../partials/scripts.ejs %>
+</body>
+</html>

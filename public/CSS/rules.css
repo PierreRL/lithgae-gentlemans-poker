@@ -1,0 +1,30 @@
+.card-header {
+    background-color:white !important;
+    border:none;
+}
+.card {
+    background-color:white !important;
+    border:none;
+}
+.card-body {
+    padding:0;    
+    margin-bottom:10px;
+}
+.btn-link {
+    color:black;
+    font-weight:bold;
+    font-size: 1.5rem;
+}
+.accordion-hr {
+    width:auto;
+    border-color:grey;
+    margin:0;
+}
+h5 {
+    font-size:2rem !important;
+}
+.list-group-item {
+    border-color:#afafaf;
+    font-size:1.2rem;
+    font-family: Roboto;
+}

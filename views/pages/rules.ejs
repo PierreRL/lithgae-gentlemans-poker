@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>   
+  <link rel="stylesheet" href="/CSS/rules.css" type="text/css">
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+    <h1>Rules</h1>
+    <hr class="jb-header-hr"/>
+</div>  
+<div class="main-wrapper text-center">
+    <p class="jb-txt">For basic rules on No Limits Texas Hold 'Em, please visit
+        <a href="https://www.pokerlistings.com/poker-rules-texas-holdem">these</a>
+        rules.</p>
+    <p class="jb-txt mb-3">However, here are some specifics -</p>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Text Hold 'Em Specifics
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Only 5 cards between your 2 'hole' cards and the 5 community cards ever count. The other 2 are completely ignored</li>
+                <li class="list-group-item">In the case of a complete tie, the pot is split equally between winners</li>
+                <li class="list-group-item">When raising, you must raise by at least the previous betor raise. I.e. if the previous bet was 50 chips, you must raise by at least 50 chips and put 100 chips into the pot minimum</li>
+                <li class="list-group-item">Going all-in supercedes the above rule, however does not reopen betting unless it is enough to fulfill the above rule.</li>
+                <li class="list-group-item">Going all-in when it would otherwise not be enough to call creates a side-pot which means they cannot win the entire pot.</li>
+                <li class="list-group-item">An ante is like a small blind but everyone must pay it (excep of course the small and big blinds)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="accordion-hr"/>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Tournament Specifics
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">No re-buy-ins. Once you're out - you're out.</li>
+                  <li class="list-group-item">If you cannot afford the blind, you go all in and split pot rules apply.</li>
+                  <li class="list-group-item">Making any action or verbal comment into the play area is binding, even out of turn. I.e. if you throw chips into the pot, they are put in the pot no matter what. If you say 'check', you have checked and may not change your decision at any point.</li>
+                  <li class="list-group-item">Making any comment regarding the cards you have in your hand is illegal, and you must fold. You may, however, verbally comment on other's hands as you wish.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="accordion-hr"/>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Etiquette
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Formal dress is appropriate as this is a formal occasion</li>
+                  <li class="list-group-item">Drinks are allowed if your bring your own - please don't have them on the table</li>
+                  <li class="list-group-item">Acting out of turn is extremely impolite and can influence the game. If you act out of turn, you forfeit that hand. Repeated offences will increase the penalty by an additional hand.</li>
+                  <li class="list-group-item">No phones at the table under any circumstances. Only once you have folded, or have gone bankrupt may you be on your phone</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="accordion-hr"/>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Democracy
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Any disputes will result in a binary public vote by show of hands.</li>
+                  <li class="list-group-item">A simple majority wins and the motion is carried out</li>
+                  <li class="list-group-item">There are no appeals</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    </div>  
+
+</div>  
+    <% include ../partials/scripts.ejs %>
+</body>
+</html>
