@@ -28,3 +28,11 @@ h5 {
     font-size:1.2rem;
     font-family: Roboto;
 }
+@media (max-width: 768px) {
+    .list-group-item {
+        font-size:1.1rem;
+    }
+    .btn-link {
+        font-size: 1.2rem;
+    }
+}
